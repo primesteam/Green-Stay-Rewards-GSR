@@ -1,7 +1,7 @@
 # Green Stay Rewards - GSR
 "Join our green revolution: earn rewards for conserving energy while staying cool in your hotel room!"
 
-![logo-new](photos/logo.png)
+![logo](photos/logo.png)
 # Abstract
 The aim of this project is to develop a system that monitors the temperature and energy consumption of the air-conditioning units in hotel rooms and 
 rewards guests for their conservation efforts. The system utilizes a combination of sensors including IR temperature and I2C temperature sensors to 
@@ -10,7 +10,7 @@ unit to determine its energy consumption. The water consumption is measured usin
 installed in the water supply line to the room. All sensor data is stored in a database, and guests can earn points based on their conservation efforts, 
 which can be redeemed for eco-friendly rewards.
 
-![logo-new](photos/photo1.jpg)
+![sensors](photos/photo1.jpg)
 
 # Components 
 **Green Stay Rewards** is a multi-sensor system, each mainly consisting of two parts:
@@ -18,14 +18,14 @@ which can be redeemed for eco-friendly rewards.
 ### The Programming and Production Boards
 Here you can notice the 2 main boards used to make this project working
 
-|          Arduino Board          |             ESP8266-01             |
-|:-------------------------------:|:----------------------------------:|
-| ![logo-new](photos/arduino.jpg) | ![logo-new](photos/esp8266-01.jpg) |
+|           Arduino Board            |              ESP8266-01              |
+|:----------------------------------:|:------------------------------------:|
+| ![arduino-uno](photos/arduino.jpg) | ![esp8266-01](photos/esp8266-01.jpg) |
 
 ### The Sensors
-|             IR Temperature Sensor             |   DS18B20 Temperature Sensor    |             Flow Sensor             |
-|:---------------------------------------------:|:-------------------------------:|:-----------------------------------:|
-| ![logo-new](photos/ir-temperature-sensor.jpg) | ![logo-new](photos/DS18B20.jpg) | ![logo-new](photos/flow-sensor.jpg) |
+|                   IR Temperature Sensor                    |   DS18B20 Temperature Sensor    |             Flow Sensor             |
+|:----------------------------------------------------------:|:-------------------------------:|:-----------------------------------:|
+| ![ir-temperature-sensor](photos/ir-temperature-sensor.jpg) | ![DS18B20](photos/DS18B20.jpg) | ![flow-sensor](photos/flow-sensor.jpg) |
 
 # Functionality
 The system continuously monitors the temperature and occupancy of the hotel rooms using the IR temperature sensor, I2C temperature sensor, and occupancy 
